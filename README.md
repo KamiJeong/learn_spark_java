@@ -19,3 +19,9 @@
 
 - nautilus ~/.local/share/applications
 - and drop-down icon on desktop
+
+
+# How to run psyspark, ipython with python3....Damn
+
+- PYSPARK_PYTHON=python3 PYSPARK_DRIVER_PYTHON=ipython ./bin/pyspark
+- PYSPARK_PYTHON=python3 PYSPARK_DRIVER_PYTHON=ipython PYSPARK_DRIVER_PYTHON_OPTS="notebook" ./bin/pyspark
